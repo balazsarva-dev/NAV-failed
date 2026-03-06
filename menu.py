@@ -1,9 +1,9 @@
 from logsettings import logger
-from valids import Valids
+from valids import Valid
 
 class Menu:
     def __init__(self, game: str) -> None:
-        self.valid = Valids()
+        self.valid = Valid()
         self.game = game
         logger.info(f"Entered to the {self.game} game!")
         

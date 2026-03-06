@@ -1,7 +1,7 @@
 from typing import Callable
 from logsettings import logger
 
-class Valids:
+class Valid:
     def set_valid_values(self, prompt: str, condition: Callable) -> None:
         while True:
             try:

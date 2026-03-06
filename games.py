@@ -1,6 +1,6 @@
 import sys
 from menu import Menu
-from valids import Valids
+from valids import Valid
 from calculator import Calculator
 from equation import GameEquation
 from chickenrabbit import ChickenRabbit
@@ -10,7 +10,7 @@ from rock import Rock
 
 class Games(Menu):
     def __init__(self) -> None:
-        self.valid = Valids()
+        self.valid = Valid()
         self.games = dict(enumerate([Calculator, GameEquation, ChickenRabbit, Guesses, Lotto, Rock], 1))
         self.games[len(self.games) + 1] = sys.exit
 

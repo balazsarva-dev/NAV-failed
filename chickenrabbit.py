@@ -21,11 +21,11 @@ class ChickenRabbit(Menu):
         self.set_params()
         number_of_heads, number_of_legs = self.get_params()
         
-        found_soulutions = False
+        found_solutions = False
         for num_chicken in range(number_of_heads + 1):
             num_rabbit = number_of_heads - num_chicken
             if num_chicken * 2 + num_rabbit * 4 == number_of_legs:
                 logger.info(f"Number of chickens: {num_chicken}, Number of rabbits: {num_rabbit}")
-                found_soulutions = True
-        if not found_soulutions:
+                found_solutions = True
+        if not found_solutions:
             logger.info("No solutions found!")
