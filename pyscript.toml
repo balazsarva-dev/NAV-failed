@@ -1,0 +1,14 @@
+name = "Game Center"
+
+[files]
+"python/calculator.py" = "./calculator.py"
+"python/chickenrabbit.py" = "./chickenrabbit.py"
+"python/equation.py" = "./equation.py"
+"python/games.py" = "./games.py"
+"python/guesses.py" = "./guesses.py"
+"python/logsettings.py" = "./logsettings.py"
+"python/lotto.py" = "./lotto.py"
+"python/menu.py" = "./menu.py"
+"python/process.py" = "./process.py"
+"python/rock.py" = "./rock.py"
+"python/valids.py" = "./valids.py"
