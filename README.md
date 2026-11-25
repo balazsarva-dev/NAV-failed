@@ -1,3 +1,5 @@
+[**Play it in the browser**](https://balazsarva-dev.github.io/NAV-failed/)
+
 # Python Game Center
 
 Small Python console games (calculator, quadratic equation solver, chicken & rabbit puzzle, number guessing, lotto, rock-paper-scissors).
