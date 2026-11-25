@@ -56,3 +56,6 @@ Lotto game.
 
 ### Task
 Rock, scissors, paper game.
+
+### Task
+The Blackjack game integrated.

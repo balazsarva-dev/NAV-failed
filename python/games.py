@@ -7,11 +7,12 @@ from chickenrabbit import ChickenRabbit
 from guesses import Guesses
 from lotto import Lotto
 from rock import Rock
+from bj_game import Blackjack
 
 class Games(Menu):
     def __init__(self) -> None:
         self.valid = Valid()
-        self.games = dict(enumerate([Calculator, GameEquation, ChickenRabbit, Guesses, Lotto, Rock], 1))
+        self.games = dict(enumerate([Calculator, GameEquation, ChickenRabbit, Guesses, Lotto, Rock, Blackjack], 1))
         self.games[len(self.games) + 1] = sys.exit
 
     def set_game(self):
