@@ -1,4 +1,4 @@
-[**Play it in the browser**](https://balazsarva-dev.github.io/python-games
+[**Play it in the browser**](https://balazsarva-dev.github.io/python-games)
 
 # Python Game Center
 
