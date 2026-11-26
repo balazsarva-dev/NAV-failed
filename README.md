@@ -59,3 +59,9 @@ Rock, scissors, paper game.
 
 ### Task
 The Blackjack game integrated.
+
+### Task
+Ciphers added.
+
+### Task
+Cart added.
